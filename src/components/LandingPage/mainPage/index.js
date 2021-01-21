@@ -5,9 +5,9 @@ import "./styles.scss";
 
 function MainPage() {
   return (
-    <div className="row mt-5">
+    <div className="row mt-5 main-content">
       <div className="col-sm-12 col-md-6 col-lg-6 align-content-center">
-        <div className="row">
+        <div className="row main-heading">
           <div className="col-sm-12 col-md-12 col-lg-12">
             <h1><b>Make maths practice as fun and addictive as Games</b></h1>
           </div>
@@ -28,8 +28,8 @@ function MainPage() {
       </div>
       <div className="col-sm-12 col-md-6 col-lg-6 align-content-center student-image">
         <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-12">
-            <img className="rounded" src={studentImage} width="80%" height="80%" />
+          <div className="col-sm-12 col-md-12 col-lg-12 image-style">
+            <img className="rounded" src={studentImage} width="50%" height="100%" />
           </div>
         </div>
       </div>

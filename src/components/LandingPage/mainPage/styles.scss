@@ -3,8 +3,40 @@
 .student-image {
   background-image: url("../../../asset/student-background.svg");
   background-size: cover;
+  height: 500px;
   background-repeat: no-repeat;
   background-position: bottom;
   background-clip: content-box;
+}
 
+.main-content {
+  align-items: center;
+  justify-content: center;
+  @include breakpoint-mobile {
+    flex-direction: column-reverse;
+  }
+  .main-heading {
+    @include breakpoint-mobile {
+      text-align: center;
+    } 
+  }
+}
+.image-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 39px;
+  height: 339px;
+  img {
+    @include breakpoint-mobile {
+      width: 288px;
+    }
+    @include breakpoint-custom(280px) {
+      width: 225px;
+    }
+  }
+  @include breakpoint-mobile {
+    margin-left: 0px;
+  }
 }

@@ -3,7 +3,7 @@ import "./styles.scss";
 function LovePixelMath(props) {
   return (
     <div className="row mt-5 h-backgound-image">
-      <div id="carouselExampleControls" className="carousel slide pixel-card" data-ride="carousel">
+      <div id="carouselExampleControls" className="carousel slide pixel-card"  data-interval="3000" data-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="d-flex justify-content-center">

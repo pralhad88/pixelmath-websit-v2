@@ -1,8 +1,33 @@
 @import "../../sass/mixins.scss";
 
 .pixel-footer {
-  width: 80%;
   margin: auto;
-  border: 5px solid red;
-  margin-top: 10px;
+  margin-top: 40px;
+}
+
+.footer-coloumn {
+  display: flex;
+  flex-direction: column;
+  height: 'fit-content';
+  justify-content: center;
+  align-items: flex-start;
+  .list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text-styles {
+      font: normal normal 600 16px/22px Poppins;
+      letter-spacing: 0.25px;
+      color: #000000;
+      cursor: pointer;
+      padding: 10px
+    }
+    .link {
+      text-decoration: none;
+      color: black;
+      :hover {
+        color: blue;
+      }
+    }
+  }
 }

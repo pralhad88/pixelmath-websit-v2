@@ -6,6 +6,11 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 420px;
+
+  @include breakpoint-mobile {
+    background-image: none;
+    text-align: center;
+  }
 }
 
 .pixel-card {
@@ -18,11 +23,15 @@
   height: 290px;
   background: #FFFFFF;
   box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.4);
+  @include breakpoint-mobile {
+    height: auto;
+    width: fit-content;
+    margin: auto;
+  }
 }
 
 .slider-card-sec-4 {
   margin-top: 30px;
-  padding: 10px !important;
   background-color: transparent;
 }
 
@@ -30,6 +39,6 @@
   width: 22px !important;
   border-radius: 50% !important;
   height: 30px !important;
-  background: no-repeat 50%/100% 100% black;
+  background-color: black;
 
 }

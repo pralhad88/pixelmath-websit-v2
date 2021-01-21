@@ -7,7 +7,7 @@ import './styles.scss';
 
 function LandingPage() {
   return (
-    <div className="container main-page">
+    <div className="container landing-page">
       <MainPage />
       <Features />
       <Contest />

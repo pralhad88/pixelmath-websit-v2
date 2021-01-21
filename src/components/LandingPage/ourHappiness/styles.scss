@@ -1,0 +1,7 @@
+@import "../../../sass/mixins.scss";
+
+.pixel-happiness {
+    @include breakpoint-mobile {
+        text-align: center;
+    }
+}

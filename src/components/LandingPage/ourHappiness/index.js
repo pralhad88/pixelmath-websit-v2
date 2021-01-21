@@ -1,7 +1,8 @@
+import './styles.scss';
 
 function OurHappiness(params) {
   return (
-    <div className="row mt-5">
+    <div className="row pixel-happiness">
       <div className="col-sm-12 col-md-3 col-lg-3 align-content-center">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12">

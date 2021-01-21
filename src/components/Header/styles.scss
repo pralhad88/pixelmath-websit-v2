@@ -1,8 +1,48 @@
 @import "../../sass/mixins.scss";
 
-.pixel-header {
+// .pixel-header {
+//   width: 80%;
+//   margin: auto;
+//   border: 5px solid red;
+//   margin-top: 10px;
+// }
+
+
+.pixelmath-header {
+  justify-content: 'flex-end' !important;
   width: 80%;
   margin: auto;
-  border: 5px solid red;
-  margin-top: 10px;
+  .MuiDrawer-paper{
+    width: 70% !important;
+  }
+  .MobileShow {
+    top:0;
+    right:0;
+    z-index:1000;
+    @include breakpoint-mobile {
+      display: flex !important;
+      position:fixed!important;
+    }
+    @include breakpoint-mobile-small {
+      display: flex !important;
+      position:fixed!important;
+    }
+  }
+  
+  .marginDrawer {
+    @include breakpoint-mobile {
+      margin: 80px 0 !important;
+    }
+    @include breakpoint-mobile-small {
+      margin: 50px 0 !important;
+    }
+  }
+  .headerClass {
+    @include breakpoint-mobile {
+      display: none !important;
+    }
+    @include breakpoint-mobile-small {
+      display: none !important;
+    }
+  }
 }
