@@ -3,6 +3,9 @@
 .pixel-footer {
   margin: auto;
   margin-top: 40px;
+  @include breakpoint-mobile {
+    display: none;
+  }
 }
 
 .footer-coloumn {

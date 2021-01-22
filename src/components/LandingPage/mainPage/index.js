@@ -5,8 +5,8 @@ import "./styles.scss";
 
 function MainPage() {
   return (
-    <div className="row mt-5 main-content">
-      <div className="col-sm-12 col-md-6 col-lg-6 align-content-center">
+    <div className="row mt-5 main-content" >
+      <div className="col-sm-12 col-md-6 col-lg-6 align-content-center" >
         <div className="row main-heading">
           <div className="col-sm-12 col-md-12 col-lg-12">
             <h1><b>Make maths practice as fun and addictive as Games</b></h1>

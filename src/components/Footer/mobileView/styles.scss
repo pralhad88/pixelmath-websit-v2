@@ -1,5 +1,27 @@
 @import "../../../sass/mixins.scss";
 
 .mobile-view {
-    
+  display: none;
+  text-align: center;
+  @include breakpoint-mobile {
+    display: flex;
+  }
+  .text-styles {
+    font: normal normal 600 16px/22px Poppins;
+    letter-spacing: 0.25px;
+    color: #000000;
+    cursor: pointer;
+    padding: 10px
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+    :hover {
+      color: blue;
+    }
+  }
+  .navbar-header {
+    width: max-content;
+    margin: auto;
+  } 
 }

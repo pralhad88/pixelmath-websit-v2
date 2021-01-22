@@ -1,13 +1,15 @@
 import "./styles.scss";
 import pixelLogo from "../../asset/logo.png";
 import SocialMediaIcon from "./socialMediaIcon";
+import MobileViewFooter from "./mobileView";
+
 import { PATHS } from "../../constant";;
 
 function Footer() {
   return (
     <div className="container">
       <div className="row pixel-footer">
-        <div className="col-sm-12 col-md-4 col-lg-4 ">
+        <div className="col-sm-12 col-md-4 col-lg-4">
           <div className="row footer-coloumn" >
             <div
               style={{
@@ -75,6 +77,7 @@ function Footer() {
           </div>
         </div>
       </div>
+      <MobileViewFooter />
     </div >
   )
 }

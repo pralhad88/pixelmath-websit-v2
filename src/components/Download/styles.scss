@@ -1,0 +1,29 @@
+@import "../../sass/mixins.scss";
+
+.pixel-download {
+  background-image: url("../../asset/download-background-image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  @include breakpoint-mobile {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .download-text {
+    h2 {
+      font-weight: bold;
+      font-family: "Poppins";
+    }
+  }
+  .download-image {
+    justify-content: center;
+    align-items: center;
+    .iphone-image {
+      @include breakpoint-mobile {
+        display: none;
+      }
+    }
+  }
+}
