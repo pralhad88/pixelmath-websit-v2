@@ -2,6 +2,7 @@ import "./styles.scss";
 import pixelLogo from "../../asset/logo.png";
 import SocialMediaIcon from "./socialMediaIcon";
 import MobileViewFooter from "./mobileView";
+import PixelMathLogo from "../pixelMathLogo";
 
 import { PATHS } from "../../constant";;
 

@@ -14,6 +14,7 @@ import whatsAppImage from "../../asset/whatsapp.svg";
 import emailImage from "../../asset/message.svg";
 import hamburger from "../../asset/hamburger.png";
 import pixelLogo from "../../asset/logo.png";
+import PixelMathLogo from "../pixelMathLogo";
 
 const styles = () => ({
   root: {
@@ -190,6 +191,7 @@ const Header = props => {
 
   return (
     <Grid container xs={12} className="pixelmath-header">
+      <PixelMathLogo />
       <Grid
         container
         xs={11}

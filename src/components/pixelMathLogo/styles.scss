@@ -1,0 +1,8 @@
+@import "../../sass/mixins.scss";
+
+.pixel-logo {
+  display: none;
+  @include breakpoint-mobile {
+    display: flex;
+  }
+}

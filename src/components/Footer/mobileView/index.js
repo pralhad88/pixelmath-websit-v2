@@ -6,6 +6,7 @@ import "./styles.scss";
 
 function MobileViewFooter(props) {
   return (
+    <div className="container">
     <div className="mobile-view">
       <div className="row">
         <div className="col-sm-12">
@@ -36,7 +37,7 @@ function MobileViewFooter(props) {
               </p>
           </div>
         </div>
-        <div className="col-sm-12">
+        <div className="col-sm-12 pixel-questions">
           <p><b>Get in touch</b></p>
           <p><u>Questions or feedbacks?</u></p>
           <p><u>We’d love to hear from you</u></p>
@@ -51,6 +52,7 @@ function MobileViewFooter(props) {
           <p >2020 PixelMath. All rights Reserved.</p>
         </div>
       </div>
+    </div>
     </div>
   )
 }
