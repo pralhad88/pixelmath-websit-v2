@@ -250,8 +250,8 @@ const Header = props => {
                 display: 'flex',
                 flexDirection: 'row'
               }}>
-              <img width="40px" height="40px" src={pixelLogo} alt="logo"/>
-              <h2 style={{ marginTop: -1 }}>PixelMath</h2>
+              <img width="50px" height="50px" src={pixelLogo} alt="logo"/>
+              <h2 style={{ marginTop: -1 }}><b>PixelMath</b></h2>
             </div>
           </Grid>
         </Grid>
