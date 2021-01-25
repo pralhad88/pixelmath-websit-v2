@@ -1,0 +1,116 @@
+@import "../../sass/mixins.scss";
+
+.pixel-how-to-use {
+  .store-backgroud-image {
+    background-image: url("../../asset/store-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 220px;
+    @include breakpoint-mobile {
+      margin-left: 10%;
+    }
+    .store-div {
+      margin-top: 12%;
+      margin-left: 15%;
+      @include breakpoint-mobile {
+        margin-left: 25%;
+        margin-top: 10%;
+      }
+      img {
+        width: 40%;
+        height: 40%;
+        @include breakpoint-mobile {
+          width: 70%;
+        }
+      }
+    }
+  }
+  
+  .how-to-use-contest {
+    justify-content: center;
+    align-items: center;
+    h2 {
+      font-weight: bold;
+      text-align: center;
+      font-family: "Poppines";
+      @include breakpoint-mobile {
+        margin-left: 10%;
+      }
+    }
+  }
+  
+  .main-content {
+    justify-content: center;
+    align-items: center;
+    .topic-label {
+      padding-right: 30%;
+      @include breakpoint-mobile {
+        text-align: center;
+        padding-right: 0%;
+        p{
+          margin-left: 10%;
+        }
+      }
+    }
+  }
+
+  .main-content-1 {
+    justify-content: center;
+    align-items: center;
+    .topic-label {
+      padding-right: 30%;
+      @include breakpoint-mobile {
+        text-align: center;
+        padding-right: 0%;
+        p{
+          margin-left: 10%;
+        }
+      }
+    }
+  }
+  
+  .background-image-style {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .number-background {
+    padding: 10px;
+    .res-circle {
+      width: 8%;
+      border-radius: 50%; 
+      background: #0675C6;
+      line-height: 0;
+      position: relative;
+      @include breakpoint-mobile {
+        width: 15%;
+        margin-left: 50%;
+        margin-right: 50%;
+      }
+    }
+     
+    /* (D) MATCH HEIGHT */
+    .res-circle::after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+     
+    /* (E) TEXT BLOCK */
+    .circle-txt {
+      /* (E1) CENTER TEXT IN CIRCLE */
+      position: absolute;
+      bottom: 50%;
+      width: 100%;
+      text-align: center;
+      color: white;
+      /* (E2) THE FONT - NOT REALLY IMPORTANT */
+      font-family: arial, sans-serif;
+      font-weight: bold;
+      @include breakpoint-mobile {
+        font-size: 22px;
+      }
+    }
+  }
+}

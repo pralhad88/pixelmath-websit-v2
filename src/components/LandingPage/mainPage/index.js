@@ -13,7 +13,7 @@ function MainPage() {
           </div>
           <div className="col-sm-12 col-md-12 col-lg-12">
             <p>
-              <small>PixelMath is a math practice app which uses principles from Game Design, Learning Sciences and Positive Psychology to make math practice a fun and collaborative experience for students.</small>
+              PixelMath is a math practice app which uses principles from Game Design, Learning Sciences and Positive Psychology to make math practice a fun and collaborative experience for students.
             </p>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-12 px-3 pt-3">
@@ -26,12 +26,10 @@ function MainPage() {
           </div>
         </div>
       </div>
-      <div className="col-sm-12 col-md-6 col-lg-6 align-content-center student-image">
-        <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-12 image-style">
+      <div className="col-sm-12 col-md-6 col-lg-6 student-image">
+          <div className="image-style">
             <img className="rounded" src={studentImage} width="50%" height="100%" />
           </div>
-        </div>
       </div>
     </div>
   )

@@ -6,8 +6,8 @@ function OurHappiness(params) {
       <div className="col-sm-12 col-md-3 col-lg-3 align-content-center">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12">
-            <h1>Our</h1>
-            <h1>Happiness</h1>
+            <h2><b>Our</b></h2>
+            <h2><b>Happiness</b></h2>
           </div>
         </div>
       </div>

@@ -9,8 +9,8 @@ export default () => {
         padding: '20px 10px',
         display: 'flex',
       }}>
-      <img width="70px" height="70px" src={pixelLogo} alt="logo" />
-      <h2 style={{ marginTop: -1, fontWeight: 600, fontSize: 44 }}>PixelMath</h2>
+      <img width="60px" height="60px" src={pixelLogo} alt="logo" />
+      <h2 style={{ marginTop: -1, fontWeight: 600, fontSize: 40 }}>PixelMath</h2>
     </div>
     </div>
   )

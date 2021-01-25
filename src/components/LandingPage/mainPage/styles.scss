@@ -7,6 +7,10 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-clip: content-box;
+  @include breakpoint-mobile {
+    margin-top: -25%;
+    margin-bottom: 5%;
+  }
 }
 
 .main-content {

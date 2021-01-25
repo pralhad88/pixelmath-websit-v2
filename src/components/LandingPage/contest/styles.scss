@@ -2,9 +2,6 @@
 
 
 .pixel-contest {
-  h1 {
-    font-size: 1.5rem;
-  }
   @include breakpoint-mobile {
     flex-direction: column-reverse;
     text-align: center;
