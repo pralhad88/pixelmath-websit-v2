@@ -14,10 +14,13 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
+    "react-phone-input-2": "^2.13.9",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "sweetalert": "^2.1.2",
     "web-vitals": "^0.2.4"
   },
+  "proxy": "https://services.pixelmath.org/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

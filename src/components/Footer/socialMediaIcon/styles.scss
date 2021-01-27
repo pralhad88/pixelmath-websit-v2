@@ -1,6 +1,6 @@
 @import "../../../sass/mixins.scss";
 
-.fa {
+.fab {
     padding: 7px;
     font-size: 30px;
     text-align: center;
@@ -8,7 +8,7 @@
     border-radius: 50px;
     margin: 5px 5px;
   }
-  .fa:hover {
+  .fab:hover {
       opacity: 0.5 !important;
       color: white !important;
   }

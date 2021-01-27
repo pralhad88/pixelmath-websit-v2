@@ -107,7 +107,7 @@ const Header = props => {
               <a className={classes.link} href={PATHS.DOWNLOAD} >Download</a>
             </li>
             <li className={classes.listItem}>
-              <a className={classes.link} href={PATHS.HOME_PATH}>Contest</a>
+              <a className={classes.link} href={PATHS.CONTEST}>Contest</a>
             </li>
             <li className={classes.listItem}>
               <a className={classes.link} href={PATHS.HOW_TO_USE}>How to Use</a>
@@ -269,7 +269,7 @@ const Header = props => {
             </Grid>
             <Grid item>
               <Typography className={classes.navItem}>
-                <a className={classes.link} href={PATHS.HOME_PATH}>Contest</a>
+                <a className={classes.link} href={PATHS.CONTEST}>Contest</a>
               </Typography>
             </Grid>
             <Grid item>

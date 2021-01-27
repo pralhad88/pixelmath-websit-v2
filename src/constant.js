@@ -5,6 +5,7 @@ export const PATHS = {
   HOME_PATH: "/",
   DOWNLOAD: "/download",
   HOW_TO_USE: "/how-to-use",
+  CONTEST: "/contest"
 };
 
 

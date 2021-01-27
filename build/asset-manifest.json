@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3c2feec.chunk.css",
-    "main.js": "/static/js/main.7f258614.chunk.js",
-    "main.js.map": "/static/js/main.7f258614.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3e597377.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3e597377.js.map",
-    "static/js/2.831f7ca4.chunk.js": "/static/js/2.831f7ca4.chunk.js",
-    "static/js/2.831f7ca4.chunk.js.map": "/static/js/2.831f7ca4.chunk.js.map",
-    "static/js/3.59b969c5.chunk.js": "/static/js/3.59b969c5.chunk.js",
-    "static/js/3.59b969c5.chunk.js.map": "/static/js/3.59b969c5.chunk.js.map",
+    "main.css": "/static/css/main.fb459b91.chunk.css",
+    "main.js": "/static/js/main.b66f39b5.chunk.js",
+    "main.js.map": "/static/js/main.b66f39b5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.df1263c2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.df1263c2.js.map",
+    "static/css/2.2bbe33c5.chunk.css": "/static/css/2.2bbe33c5.chunk.css",
+    "static/js/2.2d1f71f4.chunk.js": "/static/js/2.2d1f71f4.chunk.js",
+    "static/js/2.2d1f71f4.chunk.js.map": "/static/js/2.2d1f71f4.chunk.js.map",
+    "static/js/3.21005bc1.chunk.js": "/static/js/3.21005bc1.chunk.js",
+    "static/js/3.21005bc1.chunk.js.map": "/static/js/3.21005bc1.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d3c2feec.chunk.css.map": "/static/css/main.d3c2feec.chunk.css.map",
-    "static/js/2.831f7ca4.chunk.js.LICENSE.txt": "/static/js/2.831f7ca4.chunk.js.LICENSE.txt",
+    "static/css/2.2bbe33c5.chunk.css.map": "/static/css/2.2bbe33c5.chunk.css.map",
+    "static/css/main.fb459b91.chunk.css.map": "/static/css/main.fb459b91.chunk.css.map",
+    "static/js/2.2d1f71f4.chunk.js.LICENSE.txt": "/static/js/2.2d1f71f4.chunk.js.LICENSE.txt",
     "static/media/android.2fa89bb8.png": "/static/media/android.2fa89bb8.png",
     "static/media/background-2.9c5e523d.png": "/static/media/background-2.9c5e523d.png",
     "static/media/background-3.b55f73dd.png": "/static/media/background-3.b55f73dd.png",
@@ -20,6 +22,7 @@
     "static/media/styles.scss": "/static/media/student-background.185b131b.svg",
     "static/media/feature1.e395e9b5.svg": "/static/media/feature1.e395e9b5.svg",
     "static/media/feature2.e1d7c12c.svg": "/static/media/feature2.e1d7c12c.svg",
+    "static/media/google_play_button.d6b7bc99.svg": "/static/media/google_play_button.d6b7bc99.svg",
     "static/media/group-icon.bbbae44a.png": "/static/media/group-icon.bbbae44a.png",
     "static/media/iphone.92130cb9.png": "/static/media/iphone.92130cb9.png",
     "static/media/message.bc57a3ed.svg": "/static/media/message.bc57a3ed.svg",
@@ -27,9 +30,10 @@
     "static/media/whatsapp.c59d72c2.svg": "/static/media/whatsapp.c59d72c2.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3e597377.js",
-    "static/js/2.831f7ca4.chunk.js",
-    "static/css/main.d3c2feec.chunk.css",
-    "static/js/main.7f258614.chunk.js"
+    "static/js/runtime-main.df1263c2.js",
+    "static/css/2.2bbe33c5.chunk.css",
+    "static/js/2.2d1f71f4.chunk.js",
+    "static/css/main.fb459b91.chunk.css",
+    "static/js/main.b66f39b5.chunk.js"
   ]
 }

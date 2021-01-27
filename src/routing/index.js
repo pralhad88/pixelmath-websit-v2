@@ -4,7 +4,8 @@ import { PATHS } from "../constant";
 import LandingPage from "../pages/LandingPage";
 import DownloadPage from "../pages/Download";
 import HowToUse from "../pages/HowToUse";
-
+import ContestRegistrationPage from "../pages/contest";
+ 
 const Routing = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Routing = () => {
       <Route exact path={PATHS.HOME_PATH} component={LandingPage} />
       <Route exact path={PATHS.DOWNLOAD} component={DownloadPage} />
       <Route exact path={PATHS.HOW_TO_USE} component={HowToUse} />
+      <Route exact path={PATHS.CONTEST} component={ContestRegistrationPage} />
       {/* Private routes */}
       {/* <PrivateRoute exact path={PATHS.PATH} component={Component} /> */}
     </>

@@ -1,0 +1,55 @@
+@import "../../sass/mixins.scss";
+
+.main-contest-container {
+  color: #0c293e;
+  .desktop-bg-container {
+    background-image: url("../../asset/contest_bg.jpg");
+    background-size: cover;
+    @include breakpoint-mobile {
+      height: 100vh;
+    }
+  }
+  .contest-form-container {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), url("../../asset/contest_form_bg.png");
+    background-size: cover;
+    background-repeat: repeat;
+    .react-tel-input .form-control {
+      border: 1px solid #0c293e;
+      height: 45px;
+      width: inherit;
+      border-radius: 0.75em;
+    }
+    .contest-input {
+      border: 1px solid #0c293e;
+      padding: 1.5em 1em;
+      border-radius: 0.75em;
+    }
+    .contest-submit-button {
+      background-color: #0c293e;
+      border: none;
+      border-radius: 1em;
+      width: 100%;
+      padding: 0.75em 0.5em;
+      font-size: 1.3em;
+      color: white;
+    }
+    #share-fb .fab {
+      padding: 5px;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50px;
+      margin: 5px 5px;
+    }
+
+    #share-fb .fa-facebook {
+      background: none;
+    }
+    #share-fb:hover {
+      cursor: pointer;
+    }
+    #share-whatsapp:hover {
+      cursor: pointer;
+    }
+  }
+}
