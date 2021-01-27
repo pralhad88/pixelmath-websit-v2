@@ -20,7 +20,6 @@
     "sweetalert": "^2.1.2",
     "web-vitals": "^0.2.4"
   },
-  "proxy": "https://services.pixelmath.org/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -17,7 +17,7 @@ export const razorpay = async (name, email, contact, grade, id, user_id) => {
           title: "Loading...",
           buttons: false
         });
-        await axios.post(`razorpay/capture/${paymentId}`, {
+        await axios.post(`https://services.pixelmath.org/razorpay/capture/${paymentId}`, {
           amount: '49900',
           name: name,
           email: email,
@@ -61,7 +61,7 @@ export const razorpay = async (name, email, contact, grade, id, user_id) => {
 }
 
 export const razorpayOrder = async (student_details) => {
-  const response = await axios.post(`razorpay/order`, {
+  const response = await axios.post(`https://services.pixelmath.org/razorpay/order`, {
     amount: 499,
     student_details: student_details
   });
