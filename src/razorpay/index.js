@@ -1,6 +1,6 @@
 import axios from 'axios';
 import swal from "sweetalert";
-const RAZORPAY_KEY = "rzp_test_Lc9s8WXtscUOy6";
+const RAZORPAY_KEY = "rzp_live_kIDTjE8EyFFzTw";
 
 export const razorpay = async (name, email, contact, grade, id, user_id) => {
   const options = {
